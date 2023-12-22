@@ -32,7 +32,7 @@ const App = () => {
     // Gets recipes from the edamam api through the server
     const getRecipes = async () => {
         const response = await axios.get(
-            `https://edamam-recipe-server.onrender.com//recipes/${query}`
+            `https://edamam-recipe-server.onrender.com/recipes/${query}`
         )
         console.log(response.data)
         setRecipes(response.data)
