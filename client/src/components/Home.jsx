@@ -20,7 +20,7 @@ const Home = (props) => {
             <div id="homeRecipeDiv">
                 <h4>A Sampling of Our Finest Recipes for Your Viewing Pleasure...</h4>
                 <div id="recipeHomeRender">
-                    <a href="/recipes">Recipes</a>
+                    <a href="https://recipeeps-recipes.onrender.com/recipes">Recipes</a>
                 </div>
             </div>
 
