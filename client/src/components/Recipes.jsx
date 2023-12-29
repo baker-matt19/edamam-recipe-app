@@ -27,7 +27,7 @@ const Recipes = (props) => {
 
                 <div className="recipes">
                     
-                    {props.recipes.map(recipe => {
+                    {props.recipes === undefined ? <p>Our server is running a little slow. Please be patient and it will be back shortly.</p> : props.recipes.map(recipe => {
                          return < Recipe 
                          key={recipe.recipe.label}
                          title={recipe.recipe.label}
